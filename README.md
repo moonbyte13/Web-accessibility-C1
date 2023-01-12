@@ -1,8 +1,7 @@
 # Module-1-Challenge
-[//]: d9b526859813389e28c01eef97ffd9a75db50ab6
 
 ## Deployment Link
-[Web Accessability]()
+[Web Accessibility]()
 
 ## Description
 + GIVEN a webpage with some acceptance criteria

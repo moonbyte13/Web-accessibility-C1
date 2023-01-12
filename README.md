@@ -2,6 +2,10 @@
 [//]: d9b526859813389e28c01eef97ffd9a75db50ab6
 
 ## Description
+GIVEN a webpage with some acceptance criteria
+THEN I work to solve these criteria
+THEN I organize the code and clean it up
+Then I add comments describing my work
 
 ## User Story
 AS A marketing agency

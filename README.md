@@ -28,8 +28,5 @@
 ## Credits
 N/A
 
-## Licence
-Please refer to the LICENSE in the repo.
-
 ## Demo Website
 ![Demo](/Develop/assets/images/01-html-css-git-homework-demo.png)

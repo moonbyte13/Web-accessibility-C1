@@ -1,13 +1,17 @@
 # Module-1-Challenge
 
+## Description
+I had alot of fun with this challenge. I was finding it very annoying to constantly be adjusting the containers using the padding and margins. Then my tutor explained flex to me and I found it much easier to align items and it also added the web responsiveness that we were learning about in Module 2!
+
 ## Deployment Link
 [Web Accessibility](https://xmoonphasex.github.io/Web-accessibility-C1/)
 
-## Description
-+ GIVEN a webpage with some acceptance criteria
-+ THEN I work to solve these criteria
-+ THEN I organize the code and clean it up
-+ Then I add comments describing my work
+## Credits
+UofT FSF bootcamp team for being so helpful
+
+## Licence
+Not sure if we needed one for this challenge but I did it incase
+MIT © XMoonphaseX
 
 ## User Story
 + AS A marketing agency
@@ -27,8 +31,15 @@
 + WHEN I view the title element
 + THEN I find a concise, descriptive title
 
-## Credits
-N/A
+## Demo Given
+![Demo](./assets/images/01-html-css-git-homework-demo.png)
 
-## Demo Website
-![Demo](/Develop/assets/images/01-html-css-git-homework-demo.png)
+## Deployment Screenshot Horizontal
+![Demo](./assets/images/deployment-screenshot-horizontal.png)
+
+## Deployment Screenshot Vertical
+![Demo](./assets/images/deployment-screenshot-vertical.png)
+
+## Deployment Screenshot Mobile
+![Demo](./assets/images/deployment-screenshot-mobile.png)
+

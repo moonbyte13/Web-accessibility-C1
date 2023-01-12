@@ -1,7 +1,7 @@
 # Module-1-Challenge
 
 ## Description
-    I had alot of fun with this challenge. I was finding it very annoying to constantly be adjusting the containers using the padding and margins. Then my tutor explained flex to me and I found it much easier to align items and it also added the web responsiveness that we were learning about in Module 2!
+  I had alot of fun with this challenge. I was finding it very annoying to constantly be adjusting the containers using the padding and margins. Then my tutor explained flex to me and I found it much easier to align items and it also added the web responsiveness that we were learning about in Module 2!
 
 ## Deployment Link 🔗
 [Web Accessibility](https://xmoonphasex.github.io/Web-accessibility-C1/)

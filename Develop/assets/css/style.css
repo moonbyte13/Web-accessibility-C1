@@ -1,3 +1,4 @@
+/* Styles for the whole sheet */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,21 +7,24 @@
   flex-direction: column;
 }
 
+/* For some reason I was having my title being displayed as text at the top of my page */
 head {
   display: none;
 }
 
-.columns {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
+/* I liked this, I never noticed how much a white background hurts my eyes */
 body {
   background-color: #d9dcd6;
   margin: 0;
   max-width: 2100px;
 }
 
+/* Styles for header
+‣ sets it to the width of the window
+‣ flex-direction in row, wrap allowed
+‣ center content
+‣ extra space gets put between the h1 and nav
+ */
 header {
   width: 100%;
   padding: 20px;
@@ -33,7 +37,16 @@ header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
-nav ul {
+h1 {
+  font-size: 48px;
+  margin: 0 20px;
+}
+
+/* Styles for ul
+‣ removes list bullet points
+‣ flex-direction row, allows wrap and pushes the ul to the end of the flexbox
+ */
+ nav ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -47,27 +60,28 @@ nav ul li {
   margin-left: 25px;
 }
 
+.background {
+  height: auto;
+  width: 100%;
+}
+
+/* Styles for the article.columns
+This sets the main and aside.ouside in flex row with extra space between */
+.columns {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 main {
   flex-wrap: wrap;
   padding: 20px 20px 0 20px;
 }
 
-a {
-  color: #ffffffe0;
-  text-decoration: none;
-}
-
-p {
-  flex-wrap: wrap;
-  font-size: 16px;
-}
-
-.text {
-  flex-direction: column;
-  text-align: left;
-}
-
-.article {
+/* Styles for article.main
+‣ width fit to content
+‣ flex-direction row for the .float and .text
+*/
+.main {
   width: fit-content;
   padding: 50px;
   margin-bottom: 20px;
@@ -79,15 +93,46 @@ p {
   min-width: 395px;
 }
 
+/* Link styles
+‣ remove underline
+*/
+a {
+  color: #ffffffe0;
+  text-decoration: none;
+}
+
+/* Styles for .text
+‣ flex-direction column
+‣ center content
+‣ text align to left
+*/
+.text {
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+p {
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  display: flex;
+  text-align: Left;
+}
+
+/* Flips the img float.right to the right side of the container */
 .online-reputation-management {
   flex-direction: row-reverse;
 }
 
 .float {
   display: flex;
-  flex-direction: row;
   height: 20vw;
-  border: 1px solid white;
+  border: 1px solid #0072bb;
   border-radius: 25px;
 }
 
@@ -99,7 +144,20 @@ p {
   margin-left: 25px;
 }
 
-aside {
+/* .outside max with is set to min width of content */
+.outside {
+  margin: 20px 20px 0 0;
+  padding-bottom: 20px;
+  max-width: min-content;
+}
+
+/* Styles for article.inside 
+‣ flex-direction column and allowed wrap
+‣ width fit to content
+‣ cernter content
+‣ extra space inbetween the items
+*/
+.inside {
   flex-wrap: wrap;
   flex-direction: column;
   clear: both;
@@ -116,9 +174,12 @@ aside {
 }
 
 .aside {
-  margin: 20px 20px 0 0;
-  padding-bottom: 20px;
-  max-width: min-content;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+h3 {
+  text-align: center;
 }
 
 .aside-img {
@@ -126,32 +187,7 @@ aside {
   align-items: center;
 }
 
-.art {
-  align-items: center;
-  margin-bottom: 32px;
-}
-
-.background {
-  height: auto;
-  width: 100%;
-}
-
-h1 {
-  font-size: 48px;
-  margin: 0 20px;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-  display: flex;
-  text-align: Left;
-}
-
-h3 {
-  text-align: center;
-}
-
+/* Center footer p */
 footer {
   bottom: 0;
   padding: 30px;
@@ -160,61 +196,77 @@ footer {
   text-align: center;
 }
 
+/* Center footer h2 */
 footer h2 {
   font-size: 20px;
   text-align: center;
 }
 
+/* If screen max width<= 1045px move sidebar below main and center both*/
 @media screen and (max-width: 1045px) {
   body {
     min-width: 440px;
   }
+
   .article {
     width: 75%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  section {
+
+  .outside {
     align-items: center;
     justify-content: center;
   }
+
   main {
     width: 100%;
     align-content: center;
   }
+
   .columns {
     flex-direction: column;
     width: 100%;
   }
-  aside {
+
+  .inside {
     margin-top: 0;
     max-width: 50%;
     margin: 0;
     align-content: center;
   }
-  .aside {
+
+  .outside {
     min-width: 100%;
     margin: 0;
   }
+
   header {
     flex-direction: column;
   }
+
   .text {
     text-align: center;
   }
+
   .float {
     margin: 0 0 25px 0;
   }
+
   h2 {
     text-align: center;
   }
+
   h3 {
     text-align: center;
   }
 }
 
+/* If screen max width<= 870px */
 @media screen and (max-width: 870px) {
+
+  /* Nav flex-direction column and center items */
   nav ul {
     flex-direction: column;
     align-items: center;

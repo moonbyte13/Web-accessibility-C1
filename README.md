@@ -7,7 +7,7 @@
 [Web Accessibility](https://xmoonphasex.github.io/Web-accessibility-C1/)
 <br>  </br>
 
-## User Story 
+## User Story 📘
 * AS A marketing agency
 * I WANT a codebase that follows accessibility standards
 * SO THAT our own site is optimized for search engines

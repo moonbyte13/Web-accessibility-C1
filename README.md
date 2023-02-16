@@ -4,7 +4,7 @@
   I had alot of fun with this challenge. I was finding it very annoying to constantly be adjusting the containers using the padding and margins. Then my tutor explained flex to me and I found it much easier to align items and it also added the web responsiveness that we were learning about in Module 2!
 
 ## Deployment Link 🔗
-[Web Accessibility](https://xmoonphasex.github.io/Web-accessibility-C1/)
+[Web Accessibility](https://moonphase13.github.io/Web-accessibility-C1/)
 <br>  </br>
 
 ## User Story 📘
@@ -48,4 +48,4 @@
 
 ## Licence 🔑
 * Not sure if we needed one for this challenge but I did it incase
-* MIT © XMoonphaseX
+* MIT © moonphase13
